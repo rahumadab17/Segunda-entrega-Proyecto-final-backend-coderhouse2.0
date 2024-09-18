@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "segunda-entrega-proyecto-final---rodrigo-ahumada--v2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon -e 'js,mjs,json,html' src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^8.0.1",
+    "socket.io": "^4.7.5"
+  }
+}
